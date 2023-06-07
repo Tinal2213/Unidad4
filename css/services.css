@@ -1,0 +1,21 @@
+    @import url('style.css');
+    @import url('about.css');
+
+    .ancho.fotos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .ancho.fotos a {
+        flex-basis: 30%;
+        /* Ajusta el tamaño de cada imagen para que se muestren tres en cada fila */
+        margin-bottom: 10px;
+        /* Espacio entre las filas */
+    }
+
+@media screen and (max-width:390px) {
+    .ancho.fotos{
+        justify-content: center;
+    }
+}

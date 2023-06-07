@@ -1,0 +1,43 @@
+@import url('about.css');
+@import url('movil.css');
+
+@media screen and (max-width:1500px) {}
+
+@media screen and (max-width:1270px) {}
+
+@media screen and (max-width:1024px) {}
+
+@media screen and (max-width:850px) {}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:390px) {
+    .contenedor_info {
+        flex-direction: column;
+    }
+
+    .contenedor_info1 {
+        flex-direction: column;
+    }
+
+    .cell-40,
+    .cell-60,
+    .cell-60 iframe {
+        max-width: 100%;
+    }
+
+    .contienecuatro {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contienecuatro article {
+            border-left: none;
+        max-width: 100%;
+        margin:10;
+    }
+
+    .section-counter-decoration{
+        display: none;
+    }
+}

@@ -1,0 +1,361 @@
+@import url('style.css');
+
+body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.71429;
+    font-weight: 400;
+    letter-spacing: 0.075em;
+    color: #9b9b9b;
+}
+
+/* .font-sec {
+    font-family: "Ubuntu", sans-serif;
+}    .galery {
+        background-color: #9d87c3;
+    }
+
+    .galleria {
+        margin: auto 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .example-image-link {
+        border-radius: 5px;
+        border: 2px solid white;
+        flex-basis: calc(50% - 10px);
+        /* Ajusta el ancho de cada elemento en un 50% menos el espacio entre ellos */
+        
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+[class*='heading-'] {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #151515;
+}
+
+h1 a,
+h1 a:focus,
+h1 a:active,
+h2 a,
+h2 a:focus,
+h2 a:active,
+h3 a,
+h3 a:focus,
+h3 a:active,
+h4 a,
+h4 a:focus,
+h4 a:active,
+h5 a,
+h5 a:focus,
+h5 a:active,
+h6 a,
+h6 a:focus,
+h6 a:active,
+[class*='heading'] a,
+[class*='heading'] a:focus,
+[class*='heading'] a:active {
+    color: inherit;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover,
+[class*='heading'] a:hover {
+    color: #16b6d2;
+} */
+
+.breadcrumb-wrapper {
+    text-align: center;
+}
+
+.breadcrumb-wrapper .parallax-content {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.page-header+.section-breadcrumb.section-breadcrumb {
+    margin-top: 40px;
+}
+
+.breadcrumb-custom {
+    padding: 15px 5px;
+    letter-spacing: 0.02em;
+    color: #151515;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.breadcrumb-custom>li {
+    display: inline-block;
+}
+
+.breadcrumb-custom>li:not(:last-child):after {
+    padding: 0 16px;
+    content: "\f105";
+    font-family: "FontAwesome", sans-serif;
+    font-size: 16px;
+    color: #a9adb4;
+    letter-spacing: .02em;
+}
+
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: 50px;
+}
+
+.parallax-container .shell {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.material-parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.material-parallax img {
+    display: none;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    min-width: 101%;
+    min-height: 101%;
+    transform: translate3d(-50%, 0, 0);
+    object-fit: cover;
+    object-position: center center;
+}
+
+.divider {
+    line-height: 0;
+}
+
+.divider:before {
+    content: '';
+    display: inline-block;
+    width: 60px;
+    border-top: 2px solid;
+}
+
+.section {
+    width: calc(100% - 30px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*para la seccion de la info about*/
+.section-lga {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contenedor_info {
+    display: flex;
+    gap: 20px;
+    flex: 0 1 auto;
+}
+
+.contenedor_info1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.cell-60 {
+    flex-basis: 58%;
+    max-width: 58%;
+}
+
+.cell-60 iframe {
+    width: 730px;
+    height: 458px
+}
+
+.cell-40 {
+    flex-basis: 42%;
+    max-width: 42%;
+}
+
+.headin-with-aside-divider {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.headin-with-aside-divider .divider {
+    height: 0;
+    font-size: 0;
+    flex-grow: 1;
+    min-width: 35px;
+    margin-left: 20px;
+    flex-shrink: 0;
+    margin-top: 0;
+}
+
+.headin-with-aside-divider .divider:before {
+    content: '';
+    width: 100%;
+    border-top: 1px solid #e1e1e1;
+}
+
+.tamaño {
+    position: relative;
+    top: 19px;
+}
+
+.divider:before {
+    display: inline-block;
+}
+
+.headin-with-aside-divider .divider {
+    height: 0;
+    font-size: 0;
+    flex-grow: 1;
+    min-width: 35px;
+    margin-left: 20px;
+    flex-shrink: 0;
+    margin-top: 0;
+}
+
+.card1 {
+    flex-basis: 45%;
+}
+
+.cell-card {
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.icon-unit {
+    display: flex;
+    align-items: center;
+}
+
+.icon-unit-left {
+    margin-right: 10px;
+}
+
+.icon i {
+    color: #16b6d2;
+    font-size: 40px;
+}
+
+.icon-unit-body {
+    font-size: 14px;
+}
+
+.text-bold {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Para el contenedor count*/
+.contenedor_cuatro {
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/bg-counter-01.jpg');
+}
+
+.contienecuatro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contienecuatro article {
+    border-left: 1px solid white;
+    flex-basis: 20%;
+    max-width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.contienecuatro article:first-child {
+    border-left: none;
+}
+
+.contienecuatro h3 {
+    margin: 0;
+    color: white;
+    font-size: 40px;
+}
+
+.contienecuatro p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.section-counter-decoration {
+    position: absolute;
+    top: 50%;
+    width: 8%;
+    transform: translateY(-50%);
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.section-counter-decoration:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 17px;
+    height: 17px;
+    background-color: #fff;
+}
+
+.section-counter-decoration:nth-child(1) {
+    left: 20px;
+}
+
+.section-counter-decoration:nth-child(1):before {
+    right: 0;
+}
+
+.section-counter-decoration:nth-child(2) {
+    right: 20px;
+}
+
+.section-counter-decoration:nth-child(2):before {
+    left: 0;
+}
